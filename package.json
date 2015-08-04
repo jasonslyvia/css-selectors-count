@@ -1,0 +1,37 @@
+{
+  "name": "css-selectors-count",
+  "version": "1.0.0",
+  "description": "Ensure your CSS won't be discarded by IE 9 and below because of crazy stylesheets limitation of legacy IE.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonslyvia/legacy-ie-css-lint.git"
+  },
+  "keywords": [
+    "css",
+    "lint",
+    "legacy",
+    "ie",
+    "css",
+    "rules",
+    "limit"
+  ],
+  "author": "jasonslyvia <jasonslyvia@gmail.com> (http://undefinedblog.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonslyvia/legacy-ie-css-lint/issues"
+  },
+  "homepage": "https://github.com/jasonslyvia/legacy-ie-css-lint",
+  "dependencies": {
+    "chai": "~3.2.0",
+    "css": "~2.2.1"
+  },
+  "devDependencies": {
+    "istanbul": "~0.3.17",
+    "mocha": "~2.2.5"
+  }
+}
