@@ -1,6 +1,6 @@
 {
   "name": "css-selectors-count",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ensure your CSS won't be discarded by IE 9 and below because of crazy stylesheets limitation of legacy IE.",
   "main": "index.js",
   "scripts": {
@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/jasonslyvia/legacy-ie-css-lint",
   "dependencies": {
-    "chai": "~3.2.0",
     "css": "~2.2.1"
   },
   "devDependencies": {
     "istanbul": "~0.3.17",
-    "mocha": "~2.2.5"
+    "mocha": "~2.2.5",
+    "chai": "~3.2.0"
   }
 }

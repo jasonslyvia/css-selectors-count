@@ -22,4 +22,18 @@ describe('css-selectors-count', function(){
       done();
     });
   });
+
+  it('should parse selectors with media query correctly', function(done) {
+    fs.readFile('./test/fixtures/normal-with-media.css', {encoding: 'utf8'}, function(err, file){
+      if(err) {
+        throw err;
+      }
+
+      var result = csc(file);
+      expect(result.selectors).to.equal(2);
+      expect(result.rules).to.equal(2);
+
+      done();
+    });
+  });
 });
