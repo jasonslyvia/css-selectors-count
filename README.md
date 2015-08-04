@@ -1,4 +1,4 @@
-# css-selector-count
+# css-selector-count [![Build Status](https://travis-ci.org/jasonslyvia/css-selectors-count.svg)](https://travis-ci.org/jasonslyvia/css-selectors-count) [![npm version](https://badge.fury.io/js/css-selectors-count.svg)](http://badge.fury.io/js/css-selectors-count)
 
 Count selectors in your CSS file in order to make sure it don't exceed the limitation of legacy IE browsers.
 
